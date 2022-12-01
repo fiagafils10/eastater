@@ -5,7 +5,7 @@ import { Flex, Box, Text, Icon } from '@chakra-ui/react';
 import { BsFilter } from 'react-icons/bs';
 
 import { Property, SearchFilters } from '../components';
-import { noResult } from '../assets';
+import { noresult } from '../assets';
 import { fetchBayutApi } from '../utils/fetchBayutApi';
 
 
@@ -68,7 +68,7 @@ const Search =({properties})=>{
                 >No results</Text>
                 <Image
                 objectFit='cover' 
-                alt='no result' src ={noResult}/>
+                alt='no result' src ={noresult}/>
             </Flex>
         )}
        </Box>
